@@ -1,4 +1,4 @@
-import React from "react";
+
 import Image from "../assets/sample.jpeg";
 const Header = () => {
   return (
