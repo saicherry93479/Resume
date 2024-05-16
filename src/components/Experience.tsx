@@ -1,4 +1,4 @@
-import React from "react";
+
 import Comcast from "../assets/Comcast.png";
 
 const Experience = () => {
