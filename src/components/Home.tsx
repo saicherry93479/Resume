@@ -14,7 +14,8 @@ const Home = () => {
                 Software Developer
               </h1>
               <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                I’m Charan, a software developer and enthusiast based in India.
+                Full stack software developer with expertise in front-end and
+                back-end development and enthusiast based in India.
               </p>
               <div className=" mt-6 flex sm:flex-row flex-col space-y-2 justify-center sm:space-y-0 sm:space-x-4 sm:justify-start mb-4 w-full">
                 <a
