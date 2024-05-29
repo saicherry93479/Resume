@@ -1,4 +1,9 @@
 const Home = () => {
+  const phoneNumber = "+919515235212"; // Replace with the target phone number
+  const message = encodeURIComponent(
+    "Hello, I would like to connect with you.Reagarding a job in my company"
+  ); // Your pre-filled message
+
   return (
     <>
       <div className="sm:px-8 md:mt-9">
@@ -6,13 +11,10 @@ const Home = () => {
           <div className="mx-auto max-w-2xl lg:max-w-5xl">
             <div className="max-w-2xl">
               <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-                Software Developer, and amateur founder.
+                Software Developer
               </h1>
               <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                I’m Charan, a software  developer and enthusiast based in 
-                India. I’m the dsiojds  and CEO of shdbisuhu, where we
-                develop technologies that empower regular people to explore
-                space on their own terms.
+                I’m Charan, a software developer and enthusiast based in India.
               </p>
               <div className=" mt-6 flex sm:flex-row flex-col space-y-2 justify-center sm:space-y-0 sm:space-x-4 sm:justify-start mb-4 w-full">
                 <a
@@ -23,40 +25,20 @@ const Home = () => {
                 </a>
                 <a
                   className="w-full sm:w-52 text-sm text-black bg-white dark:bg-black h-14 border border-transparent  dark:text-white dark:border-white flex justify-center items-center rounded-2xl hover:shadow-lg transition duration-200 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]"
-                  href="/pricing"
+                  href={`https://wa.me/${phoneNumber}?text=${message}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Leave a Message
                 </a>
               </div>
 
               <div className="mt-6 flex gap-6">
-                <a className="group -m-1 p-1" aria-label="Follow on X" href="#">
-                  <svg
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
-                    className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"
-                  >
-                    <path d="M13.3174 10.7749L19.1457 4H17.7646L12.7039 9.88256L8.66193 4H4L10.1122 12.8955L4 20H5.38119L10.7254 13.7878L14.994 20H19.656L13.3171 10.7749H13.3174ZM11.4257 12.9738L10.8064 12.0881L5.87886 5.03974H8.00029L11.9769 10.728L12.5962 11.6137L17.7652 19.0075H15.6438L11.4257 12.9742V12.9738Z" />
-                  </svg>
-                </a>
                 <a
                   className="group -m-1 p-1"
-                  aria-label="Follow on Instagram"
-                  href="#"
-                >
-                  <svg
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
-                    className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"
-                  >
-                    <path d="M12 3c-2.444 0-2.75.01-3.71.054-.959.044-1.613.196-2.185.418A4.412 4.412 0 0 0 4.51 4.511c-.5.5-.809 1.002-1.039 1.594-.222.572-.374 1.226-.418 2.184C3.01 9.25 3 9.556 3 12s.01 2.75.054 3.71c.044.959.196 1.613.418 2.185.23.592.538 1.094 1.039 1.595.5.5 1.002.808 1.594 1.038.572.222 1.226.374 2.184.418C9.25 20.99 9.556 21 12 21s2.75-.01 3.71-.054c.959-.044 1.613-.196 2.185-.419a4.412 4.412 0 0 0 1.595-1.038c.5-.5.808-1.002 1.038-1.594.222-.572.374-1.226.418-2.184.044-.96.054-1.267.054-3.711s-.01-2.75-.054-3.71c-.044-.959-.196-1.613-.419-2.185A4.412 4.412 0 0 0 19.49 4.51c-.5-.5-1.002-.809-1.594-1.039-.572-.222-1.226-.374-2.184-.418C14.75 3.01 14.444 3 12 3Zm0 1.622c2.403 0 2.688.009 3.637.052.877.04 1.354.187 1.67.31.421.163.72.358 1.036.673.315.315.51.615.673 1.035.123.317.27.794.31 1.671.043.95.052 1.234.052 3.637s-.009 2.688-.052 3.637c-.04.877-.187 1.354-.31 1.67-.163.421-.358.72-.673 1.036a2.79 2.79 0 0 1-1.035.673c-.317.123-.794.27-1.671.31-.95.043-1.234.052-3.637.052s-2.688-.009-3.637-.052c-.877-.04-1.354-.187-1.67-.31a2.789 2.789 0 0 1-1.036-.673 2.79 2.79 0 0 1-.673-1.035c-.123-.317-.27-.794-.31-1.671-.043-.95-.052-1.234-.052-3.637s.009-2.688.052-3.637c.04-.877.187-1.354.31-1.67.163-.421.358-.72.673-1.036.315-.315.615-.51 1.035-.673.317-.123.794-.27 1.671-.31.95-.043 1.234-.052 3.637-.052Z" />
-                    <path d="M12 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm0-7.622a4.622 4.622 0 1 0 0 9.244 4.622 4.622 0 0 0 0-9.244Zm5.884-.182a1.08 1.08 0 1 1-2.16 0 1.08 1.08 0 0 1 2.16 0Z" />
-                  </svg>
-                </a>
-                <a
-                  className="group -m-1 p-1"
+                  target="_blank"
                   aria-label="Follow on GitHub"
-                  href="#"
+                  href="https://github.com/saicherry93479"
                 >
                   <svg
                     viewBox="0 0 24 24"
@@ -71,9 +53,10 @@ const Home = () => {
                   </svg>
                 </a>
                 <a
+                  target="_blank"
                   className="group -m-1 p-1"
                   aria-label="Follow on LinkedIn"
-                  href="#"
+                  href="https://www.linkedin.com/in/sai-charan-a59114211/"
                 >
                   <svg
                     viewBox="0 0 24 24"
@@ -84,9 +67,7 @@ const Home = () => {
                   </svg>
                 </a>
               </div>
-              
             </div>
-            
           </div>
         </div>
       </div>
