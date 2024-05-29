@@ -1,3 +1,5 @@
+import RESUME from "../assets/RESUME.pdf";
+
 const Home = () => {
   const phoneNumber = "+919515235212"; // Replace with the target phone number
   const message = encodeURIComponent(
@@ -20,7 +22,8 @@ const Home = () => {
               <div className=" mt-6 flex sm:flex-row flex-col space-y-2 justify-center sm:space-y-0 sm:space-x-4 sm:justify-start mb-4 w-full">
                 <a
                   className="bg-slate-900 dark:bg-white dark:text-black no-underline flex space-x-2 group cursor-pointer relative hover:shadow-2xl transition duration-200 shadow-zinc-900 p-px font-semibold text-white px-4 py-2 w-full sm:w-52 h-14 rounded-2xl text-sm text-center items-center justify-center"
-                  href="/components"
+                  href={RESUME}
+                  target="_blank"
                 >
                   Download Resume
                 </a>
