@@ -1,4 +1,3 @@
-
 import GoalStreetOne from "../assets/GoalStreetOne.jpeg";
 import Shivoham from "../assets/Pc.jpeg";
 import Fodeto from "../assets/FodetoOne.jpeg";
@@ -38,10 +37,13 @@ const ProjectOne = () => {
             <div className="group-hover/bento:translate-x-2 transition duration-200">
               <Icon></Icon>
               <div className="font-sans font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2">
-                The Dawn of Innovation
+                Goalstreet (Eductational Instiute Website)
               </div>
               <div className="font-sans font-normal text-neutral-600 text-xs dark:text-neutral-300">
-                Explore the birth of groundbreaking ideas and inventions.
+                Developed "Goalstreet," a dynamic platform that connects
+                students with educational institutes for internships and
+                courses, featuring an intuitive front end built with React and
+                Tailwind CSS.
               </div>
             </div>
           </div>
@@ -55,10 +57,11 @@ const ProjectOne = () => {
             <div className="group-hover/bento:translate-x-2 transition duration-200">
               <Icon></Icon>
               <div className="font-sans font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2">
-                The Digital Revolution
+                Fodeto
               </div>
               <div className="font-sans font-normal text-neutral-600 text-xs dark:text-neutral-300">
-                Dive into the transformative power of technology.
+                A Food Application developed in Flutter , currently using by
+                2000 users.
               </div>
             </div>
           </div>
@@ -73,10 +76,10 @@ const ProjectOne = () => {
             <div className="group-hover/bento:translate-x-2 transition duration-200">
               <Icon></Icon>
               <div className="font-sans font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2">
-                The Art of Design
+                Sree Boutique
               </div>
               <div className="font-sans font-normal text-neutral-600 text-xs dark:text-neutral-300">
-                Discover the beauty of thoughtful and functional design.
+                A cloth showroom application
               </div>
             </div>
           </div>
@@ -90,11 +93,9 @@ const ProjectOne = () => {
             <div className="group-hover/bento:translate-x-2 transition duration-200">
               <Icon></Icon>
               <div className="font-sans font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2">
-                The Power of Communication
+                Plcement Cracker
               </div>
-              <div className="font-sans font-normal text-neutral-600 text-xs dark:text-neutral-300">
-                Understand the impact of effective communication in our lives.
-              </div>
+              <div className="font-sans font-normal text-neutral-600 text-xs dark:text-neutral-300"></div>
             </div>
           </div>
         </div>
