@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <div
       id="work"
-      className=" lg:mt-24 sm:px-8 relative  max-w-7xl lg:px-8 mx-auto "
+      className=" lg:mt-24 sm:px-8 relative  max-w-7xl lg:px-8 mx-auto dark:text-white "
     >
       <div className=" relative py-[90px] ">
         <div className="rounded-0 md:rounded-2xl max-w-4xl py-[40px]  mx-auto border border-zinc-100 p-6 dark:border-zinc-700/40 bg-white dark:bg-black/50">
