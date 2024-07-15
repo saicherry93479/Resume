@@ -2,7 +2,7 @@
 import Image from "../assets/sample.jpeg";
 const Header = () => {
   return (
-    <div className="py-9 relative px-4 sm:px-8 lg:px-12">
+    <div className="py-9 relative px-4 sm:px-8 lg:px-12 sticky top-0 z-40">
     <div className="mx-auto max-w-2xl lg:max-w-5xl">
         <div className="relative flex gap-4 ">
           
